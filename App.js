@@ -1,3 +1,4 @@
+﻿import './global.css'
 import React from 'react';
 import { SafeAreaView, View, Text, StatusBar, TouchableOpacity } from 'react-native';
 
@@ -7,7 +8,7 @@ export default function App() {
       <StatusBar barStyle="light-content" backgroundColor="#111827" />
 
       <View className="mb-8 items-center">
-        <Text className="text-3xl font-bold text-gray-50 mb-2">Bienvenido 👋</Text>
+        <Text className="text-3xl font-bold text-gray-50 mb-2">Bienvenido xd 👋</Text>
         <Text className="text-base text-gray-300">Tu nueva app React Native</Text>
       </View>
 
@@ -28,3 +29,4 @@ export default function App() {
     </SafeAreaView>
   );
 }
+
